@@ -144,7 +144,12 @@ section.visible {
 }
 
 #section1, #section2, #section3, #contact {
-    background: transparent; /* Removes all background colors */
+    background: transparent; 
+}
+
+#section2 {
+    padding-top: 10px; 
+    margin-top: 0;
 }
 
 /* Background container */
