@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiba Adrita Portfolio Website</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Scroll.js and ScrollReveal Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scroll-js/2.2.1/scroll.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+        <div class="background-container"></div>
+        <div class="content">
+        </div>
+    
+    <!-- Loading Page -->
+    <div class="loading-screen" id="loadingScreen">
+        <img src="images/logo.png" alt="Logo" class="loading-logo" />
+        <br>
+        <button class="enter-btn" onclick="enterSite()">Enter</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <button class="logo-btn" onclick="refreshPage()">
+            <img src="images/logo.png" alt="Logo" /></button>
+        
+        <a href="#section2">Portfolio</a>
+        <a href="#section3">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="section1">
+        <img src="images/hello-removebg.png" alt="Hello" class="loading-hello" />
+        <div class="content-container"></div>
+        <h1>Welcome to my Personal Portfolio</h1>
+        <h2> I’m a creative individual with a passion for exploring various aspects of technology and design. From web development and design to crafting engaging, interactive experiences, I enjoy blending creativity and technical skills to bring ideas to life. Whether it’s building functional websites or experimenting with innovative solutions, I love diving into different areas to create meaningful and captivating results.</h2>
+    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="section2">
+        <div class="moving-portfolio">
+            <img src="images/portfolio.png" alt="Portfolio" />
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>Web Programming Homework Site</h3>
+                </div>
+                <div class="card-back">
+                    <p>This is my site for my Web Programming class, where I submitted homework assignments throughout the semester. For week 6, I recreated the iconic Nasty Nets website, combining my technical skills with creative exploration.</p>
+                    <a href="https://aadrita65.github.io/MEDP341_portfolio/index.html" target="_blank">Visit Site</a>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>Homework Site for Web Production 1</h3>
+                </div>
+                <div class="card-back">
+                    <p>This website was created for my Web Production 1 class, where I submitted weekly assignments and projects. For the final project, I designed and developed an interactive trivia game, showcasing my growing skills in web development and user interaction.</p>
+                    <a href="https://aadrita65.github.io/" target="_blank">Visit Site</a>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>My First Website: An Interactive Adventure</h3>
+                </div>
+                <div class="card-back">
+                    <p>Explore the first website I ever created, a project built using Glitch that marked the beginning of my web development journey. For the final piece, I designed an interactive 'Choose Your Own Adventure' story, combining my coding skills with custom visuals crafted in Adobe Illustrator.</p>
+                    <a href="https://first-website-adiba-adrita.glitch.me/" target="_blank">Visit Site</a>
+                </div>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>Recipe Finder Web App</h3>
+                </div>
+                <div class="card-back">
+                    <p>I created a responsive recipe finder web app as a midterm project for a previous class. The app dynamically fetches data from an API to provide users with personalized recipe suggestions based on their input.</p>
+                    <a href="https://aadrita65.github.io/recipefinder/" target="_blank">Visit Site</a>
+                </div>
+            </div>
+    
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>Travel Destination Generator</h3>
+                </div>
+                <div class="card-back">
+                    <p>I created a dynamic travel website as my final project, featuring a destination generator, a collection of travel vlogs, and an interactive database table. The site allows users to query and display travel information from a MySQL database.</p>
+                    <a href="https://swiss1.hunter.cuny.edu/students/dev3/finalproject/travelgenerator.html" target="_blank">Visit Site</a>
+                </div>
+            </div>
+    
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="card-front">
+                    <h3>Creative Code (p5.js)</h3>
+                </div>
+                <div class="card-back">
+                    <p>This is a collection of some of my work from my Creative Code class, showcasing various interactive and generative art projects created using p5.js.</p>
+                    <a href="https://editor.p5js.org/adibaadrita/collections/2Q5HsEFeJ" target="_blank">Visit Site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="section3">
+        <div class="moving-portfolio">
+            <img src="images/resume.png" alt="Portfolio" />
+        </div>
+        <a href="Professional Resume- Adiba Adrita.pdf" target="_blank" class="resume-btn">View My Resume</a>
+        <p>Check out my professional skills categorized below:</p>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <h3>Design & Development Tools</h3>
+                <ul>
+                    <li>Proficient in HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Advanced Microsoft Office Suite (Word, Excel)</li>
+                    <li>Adobe Photoshop, Illustrator, After Effects, Premiere</li>
+                    <li>Maya</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Programming & Technical Skills</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Glitch</li>
+                    <li>Visual Studio Code</li>
+                    <li>p5.js</li>
+                    <li>MySQL</li>
+                    <li>API Integration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section4" id="contact">
+        <div class="moving-contact">
+            <img src="images/contact.png" alt="Contact" />
+        </div>
+        <button class="email-btn" onclick="copyEmail()">adrita079@gmail.com</button>
+    
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://github.com/aadrita65" target="_blank" class="social-icon">
+                <img src="images/github.png" alt="Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/adiba-adrita-58320a29b/" target="_blank" class="social-icon">
+                <img src="images/linkedin.png" alt="LinkedIn" />
+            </a>
+        </div>
+    </footer>
+</div>
+<script>
+    window.addEventListener('load', () => {
+        const helloImage = document.querySelector('.loading-hello');
+        helloImage.style.animation = 'slide-in 2s ease-out forwards, float 4s ease-in-out infinite';
+    });
+</script>
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
