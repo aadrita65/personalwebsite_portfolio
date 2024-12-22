@@ -387,13 +387,15 @@ section.revealed {
 /* Card Front Styling */
 .card-front {
     background-color: #212121; 
-    color: #fff;
+    color: #030303;
+    font-size: 24px;
     transform: rotateY(0); 
+    
 }
 
 /* Card Back Styling */
 .card-back {
-    background: #5cb1ca; 
+    background: #458497; 
     color: #fff;
     transform: rotateY(180deg);
     display: flex;
@@ -408,7 +410,7 @@ section.revealed {
 .card-back p {
     margin-top: 50px;
     margin-bottom: 30px; 
-    font-size: 0.9rem; 
+    font-size: 18px; 
     text-align: center;
 }
 
@@ -506,4 +508,47 @@ section.revealed {
     font-size: 16px;
     color: #d4d3d3;
     margin: 8px 0;
+}
+
+
+.card:nth-child(1) .card-front {
+    background-image: url('images/card1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(2) .card-front {
+    background-image: url('images/card2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(3) .card-front {
+    background-image: url('images/card3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(4) .card-front {
+    background-image: url('images/card4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(5) .card-front {
+    background-image: url('images/card5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(6) .card-front {
+    background-image: url('images/card6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
